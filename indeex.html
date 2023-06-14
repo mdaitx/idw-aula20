@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos e  Funçoes</title>
+</head>
+<body> 
+    <h1>Eventos e Funçoes</h1>
+    <button onclick="alo()">Chamar função</button>
+    <button onclick="aloNome('Mathias')"> função nome </button>
+    <br>
+    <br>
+    <form>
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text">
+        <button onclick="saudacao()" type="button">Saudação</button>
+    </form>
+
+    <a href="#" onmouseover="mouseCima()">passe o mouse </a>
+    <a href="#" onmouseout="mouseFora()">passe o mouse </a>
+    <br>
+    <br>
+    <form>
+        <label for="user">Usuario</label>
+        <input onblur="semFoco()" type="text" id="user" onchange="textoMudou()" onfocus="emFoco()">
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
